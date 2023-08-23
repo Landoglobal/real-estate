@@ -1,8 +1,11 @@
+import Header from "./components/Header/header";
 
 function App() {
   return (
-    <span>subscribe Zainkeepscode</span>
+    <div className="App">
+      <div>Header</div>
+    </div>
   );
 }
 
-export default App;
+export default Header;
