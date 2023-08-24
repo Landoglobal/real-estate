@@ -1,11 +1,17 @@
-import Header from "./components/Header/header";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero"
+import "./App.css"
 
 function App() {
   return (
     <div className="App">
-      <div>Header</div>
+      <div>
+        <div className="white-gradient"/>
+        <Header/>
+        <Hero/>
+      </div>
     </div>
   );
 }
 
-export default Header;
+export default App;
